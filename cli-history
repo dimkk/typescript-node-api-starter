@@ -68,5 +68,6 @@ drwxr-xr-x  5 ryosuke  staff   170B  2 13 16:01 views
     - express/express.d.ts
     - mime/mime.d.ts
     - node/node.d.ts
-    - serve-static/serve-static.d.ts
-☁  taxi  
+    - serve-static/serve-static.d.ts 
+☁  taxi  npm install
+☁  taxi [master] ⚡ gibo Node > .gitignore 
