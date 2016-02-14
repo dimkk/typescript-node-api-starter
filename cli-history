@@ -1,4 +1,4 @@
-☁  Sites  npm install -g express-generator
+☁  Sites  npm i -g express-generator
 ☁  Sites  express taxi
 
    create : taxi
@@ -42,6 +42,22 @@
     - mime/mime.d.ts
     - node/node.d.ts
     - serve-static/serve-static.d.ts
-☁  taxi  npm install
 ☁  taxi  git init
 ☁  taxi [master] ⚡ gibo Node > .gitignore
+☁  taxi [master] ⚡ npm install -g node-dev
+☁  taxi [master] ⚡ node-dev bin/www
+☁  taxi [master] ⚡ brew install mongodb
+🍺  /usr/local/Cellar/mongodb/3.2.1: 17 files, 208.4M
+☁  taxi [master] ⚡ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+☁  taxi [master] ⚡ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+☁  taxi [master] ⚡ mongo
+MongoDB shell version: 3.2.1
+connecting to: test
+> show dbs
+local  0.000GB
+> exit
+bye
+☁  taxi [master] ⚡ npm i mocha -g
+☁  taxi [master] ⚡ npm i mocha chai superagent --save-dev
+☁  taxi [master] ⚡ tsd query chai mocha --save --action install
+☁  taxi [master] ⚡ npm i mongoskin body-parser --save
