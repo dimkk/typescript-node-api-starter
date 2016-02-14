@@ -1,3 +1,4 @@
+"use strict";
 var app = require('../app');
 var debug = require('debug')('taxi:server');
 var http = require('http');
