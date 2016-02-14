@@ -1,3 +1,4 @@
+☁  Sites  npm install -g express-generator
 ☁  Sites  express taxi
 
    create : taxi
@@ -25,41 +26,13 @@
 
    create : taxi/public/javascripts
 ☁  Sites  cd taxi
-☁  taxi  ll
-total 16
--rw-r--r--  1 ryosuke  staff   1.4K  2 13 16:01 app.js
-drwxr-xr-x  3 ryosuke  staff   102B  2 13 16:01 bin
--rw-r--r--  1 ryosuke  staff   323B  2 13 16:01 package.json
-drwxr-xr-x  5 ryosuke  staff   170B  2 13 16:01 public
-drwxr-xr-x  4 ryosuke  staff   136B  2 13 16:01 routes
-drwxr-xr-x  5 ryosuke  staff   170B  2 13 16:01 views
-☁  taxi  code .
-☁  taxi  tsd query node express --action install
-
- - express / express    
- - node    / node       
-
->> running install..
-
->> written 2 files:
-
-    - express/express.d.ts
-    - node/node.d.ts
-☁  taxi  tsd query node --action install 
-
- - node / node    
-
->> running install..
-
->> written zero files
-☁  taxi  rm -rf typings            
 ☁  taxi  tsd install express node --save
 
- - express         / express         
-   -> node         > node            
-   -> serve-static > serve-static    
-   -> mime         > mime            
- - node            / node            
+ - express         / express
+   -> node         > node
+   -> serve-static > serve-static
+   -> mime         > mime
+ - node            / node
 
 >> running install..
 
@@ -68,6 +41,7 @@ drwxr-xr-x  5 ryosuke  staff   170B  2 13 16:01 views
     - express/express.d.ts
     - mime/mime.d.ts
     - node/node.d.ts
-    - serve-static/serve-static.d.ts 
+    - serve-static/serve-static.d.ts
 ☁  taxi  npm install
-☁  taxi [master] ⚡ gibo Node > .gitignore 
+☁  taxi  git init
+☁  taxi [master] ⚡ gibo Node > .gitignore
