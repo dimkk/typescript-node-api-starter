@@ -57,7 +57,7 @@ connecting to: test
 local  0.000GB
 > exit
 bye
+☁  taxi [master] ⚡ npm i mongoose --save
 ☁  taxi [master] ⚡ npm i mocha -g
 ☁  taxi [master] ⚡ npm i mocha chai superagent --save-dev
-☁  taxi [master] ⚡ tsd query chai mocha --save --action install
-☁  taxi [master] ⚡ npm i mongoskin body-parser --save
+☁  taxi [master] ⚡ tsd query chai mocha mongoose --save --action install
